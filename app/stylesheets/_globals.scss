@@ -1,0 +1,28 @@
+// COLORS
+  $green: hsl(75, 94%, 57%);
+  $white: hsl(0, 0%, 100%);
+  $grey: hsl(0, 0%, 20%);
+  $dark-grey: hsl(0, 0%, 12%);
+  $off-black: hsl(0, 0%, 8%);
+
+// TYPOGRAPHY
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+$font-family: "Inter", sans-serif;
+
+$fs-14: 0.875rem;
+
+$fw-400: 400;
+$fw-600: 600;
+$fw-700: 700;
+
+// MIXINS
+
+// ## Layout
+
+// The designs were created to the following widths:
+
+// - Mobile: 375px
+// - Desktop: 1440px
+
+// > 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
