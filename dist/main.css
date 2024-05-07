@@ -59,23 +59,30 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 0.875rem;
   display: flex;
+  width: 100%;
+  height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body .attribution a {
+  color: hsl(0, 0%, 100%);
+}
 body .container {
   background-color: hsl(0, 0%, 12%);
-  border: 1px solid white;
+  border-radius: 0.75rem;
   width: 100%;
   max-width: 25rem;
   height: 38.1875rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 body .container .main__container {
-  border: 1px solid white;
   padding: 2.5rem 0;
   width: 70%;
   display: flex;
@@ -105,4 +112,27 @@ body .container .main__container .main__container--name-location p {
   color: hsl(75, 94%, 57%);
   font-size: 0.875rem;
   padding-top: 10px;
+}
+body .container .main__container .main__container--bio {
+  padding-top: 20px;
+}
+body .container .main__container .main__container--bio .main__container--bio {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+body .container .main__container .main__container--cards {
+  margin-top: 10px;
+}
+body .container .main__container .main__container--cards .cards__card {
+  background-color: hsl(0, 0%, 20%);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 20px;
+  width: 17.5rem;
+  height: 2.8125rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
