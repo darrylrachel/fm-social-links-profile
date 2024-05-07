@@ -59,7 +59,7 @@ After learning about the gap property I will work on getting more familiar with 
 
 ### Useful resources
 
-- [CSS-Tricks](https://css-tricks.com/almanac/properties/g/gap/) - This helped me for learn more about the gap property. I really liked this resource because It was clear and straight forward.
+- [CSS-Tricks](https://css-tricks.com/almanac/properties/g/gap/) - This helped me learn more about the gap property. I really liked this resource because It was clear and straight forward.
 
 ## Author
 
