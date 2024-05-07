@@ -66,7 +66,7 @@ body {
   justify-content: center;
 }
 body .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 }
 body .attribution a {
@@ -81,6 +81,7 @@ body .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2.5rem;
 }
 body .container .main__container {
   padding: 2.5rem 0;
@@ -111,23 +112,25 @@ body .container .main__container .main__container--name-location h1 {
 body .container .main__container .main__container--name-location p {
   color: hsl(75, 94%, 57%);
   font-size: 0.875rem;
-  padding-top: 10px;
+  padding-top: 0.625rem;
 }
 body .container .main__container .main__container--bio {
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 body .container .main__container .main__container--bio .main__container--bio {
   font-size: 0.875rem;
   font-weight: 400;
 }
 body .container .main__container .main__container--cards {
-  margin-top: 10px;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin-top: 1.75rem;
 }
 body .container .main__container .main__container--cards .cards__card {
   background-color: hsl(0, 0%, 20%);
   font-size: 0.875rem;
   font-weight: 600;
-  margin-top: 20px;
   width: 17.5rem;
   height: 2.8125rem;
   border-radius: 0.5rem;
@@ -135,4 +138,20 @@ body .container .main__container .main__container--cards .cards__card {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+body .container .main__container .main__container--cards .cards__card:hover {
+  background-color: hsl(75, 94%, 57%);
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+  color: hsl(0, 0%, 8%);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .container {
+    margin-bottom: 1rem;
+  }
+  .container .main__container--bio {
+    font-size: 12px;
+    font-weight: 400;
+  }
 }/*# sourceMappingURL=main.css.map */
